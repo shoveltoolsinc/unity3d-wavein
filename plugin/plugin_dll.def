@@ -1,0 +1,7 @@
+LIBRARY wavein.dll
+EXPORTS
+    WaveIn_Init PRIVATE
+    WaveIn_Destroy PRIVATE
+    WaveIn_GetNumDevices PRIVATE
+    WaveIn_StartDevice PRIVATE
+    WaveIn_StopDevice PRIVATE
