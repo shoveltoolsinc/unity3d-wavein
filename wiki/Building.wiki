@@ -1,4 +1,4 @@
-#Instructions for building the plugin
+#summary Instructions for building the plugin
 
 == Requirements ==
 
