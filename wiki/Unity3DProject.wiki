@@ -2,6 +2,6 @@
 
 There's a branch with ready-made binaries; to just get the Unity3D project from there you can do this:
 
-svn export http://unity3d-wavein.googlecode.com/svn/branches/0.1/unity3d 0.1
+`svn export http://unity3d-wavein.googlecode.com/svn/branches/0.1/unity3d 0.1`
 
 Which will check out to a directory called '0.1'
