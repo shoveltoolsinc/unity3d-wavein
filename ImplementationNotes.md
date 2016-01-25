@@ -1,0 +1,3 @@
+The Windows plugin uses the 'waveIn' multimedia API available pre-Vista (and probably considerably earlier, at least as far back as Unity3D is compatible I expect); startup and shutdown is synchronous with callbacks delivered on the calling thread but callbacks in between come from another thread. Any non-WAVE\_MAPPER device is selectable.
+
+The MacOS plugin uses the Audio Queue Services API available from Leopard onwards; only the default audio input, configured in system preferences, is used.
